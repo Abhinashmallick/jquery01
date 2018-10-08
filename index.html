@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jquery_Basic  |  Edwisor</title>
+  <!-- main css -->
+  <link rel="stylesheet" href="css/main.css">
+  <!-- modal css -->
+  <link rel="stylesheet" href="css/modal.css">
+  <!-- font awesome -->
+  <script src="js/all.js"></script>
+  <!-- magnific -->
+  <link rel="stylesheet" href="plugins/magnific/magnific-popup.css">
+  <!-- owl carousel css-->
+  <link rel="stylesheet" href="plugins/owl/owl.carousel.min.css">
+  <!--owl carousel theme  -->
+  <link rel="stylesheet" href="plugins/owl/owl.theme.default.css">
+</head>
+
+<body>
+  
+<!--preloader-->
+<div class="preloader">
+	<img src="img/preloader.gif" alt="preloader" class="preloader_img">
+</div>
+<!--preloader end-->
+
+<!--header-->
+<header class="header" id="header">
+<!--	title-->
+<article class="banner">
+	<h1 class="banner_title"> Website <br> Creative <strong class="banner_title-name">agency</strong></h1>
+	<p class="banner_para">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+</article>
+<!--title end-->
+<!--video-->
+<div class="video_container">
+	<video class="video_item" id="video" autoplay loop muted>
+		<source src="video/Desktop/Travaho.mp4" type="video/mp4">
+		<source src="video/Desktop/Travaho.ogv" type="video/ogv">
+		<source src="video/Desktop/Travaho.webm" type="video/webm">
+			browser does not support video tag
+	</video>
+</div>
+<!--video end-->
+<!--video overlay-->
+<div class="video_overlay"></div>
+<!--video overlay end-->
+
+<!--navBar-->
+<div class="navBtn">
+	<i class="fas fa-bars"></i>
+</div>
+<nav class="nav">
+	<ul class="nav_links">
+		<li>
+		<a href="" id="home" class="nav_single-link">
+			<img src="img/logo.png" alt="logo" style="height: 80px;">
+		</a>
+		</li>
+		<li><a href="#home" class="nav_single-link">home</a></li>
+		<li><a href="#contact" class="nav_single-link">contact</a></li>
+		<li><a href="#projects" class="nav_single-link">projects</a></li>
+		<li><a href="#progress" class="nav_single-link">progress</a></li>
+		
+	</ul>
+</nav>
+<!--navBar end-->
+<!--social icons-->
+<div class="social-icons">
+	<a href="#" class="social-icon social-icon-facebook">
+		<i class="fab fa-facebook"></i>
+	</a>
+	<a href="#" class="social-icon social-icon-twitter">
+		<i class="fab fa-twitter"></i>
+	</a>
+	<a href="#" class="social-icon social-icon-instagram">
+		<i class="fab fa-instagram"></i>
+	</a>
+</div>
+<!--social icons ends-->
+<!--video switch(ON/OFF)-->
+<div class="video_switch-container">
+	<div class="video_switch" title="video on/off">
+		<span>on</span>
+		<span>off</span>
+		<div class="video_switch-btn"></div>
+	</div>
+</div>
+
+</header>
+<!--header end-->
+
+<!--Service Section-->
+<section class="services section-padding" id="services">
+	<!--title-->
+	<div class="section-title_container">
+		<div class="section-title_icon">
+			<i class="fas fa-cogs"></i>
+		</div>
+		<div class="section-title_text">
+			<h1 class="section-title_name">Our<br><b>Service</b></h1>
+			<h4 class="section-title_info">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	
+	<div class="flexbox-parent flexbox-parent-medium">
+	<!--service01-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-desktop fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">web</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	<!--service02-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-pencil-alt fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">prototyping</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	<!--service03-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-mobile fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">responsive</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	<!--service04-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-paint-brush fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">design</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	<!--service05-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-lightbulb fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">research</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	<!--service06-->
+	<article class="service">
+		<div class="service_icon">
+			<i class="fas fa-chart-bar fa-fw"></i>
+		</div>
+		<div class="service_text">
+			<h2 class="service_name">marketing</h2>
+			<h4 class="service_info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, harum.</h4>
+		</div>
+	</article>
+	
+	
+	
+	</div>
+	
+</section>
+<!--Service Section End-->
+	
+<!--Contact Section-->
+<section class="contact section-padding" id="contact">
+	<div class="contact_container">
+	<h1 class="contact_title"> Contact <strong class="banner_title-name">us</strong></h1>
+<!--		<h2 class="contact_title">Get Contact Us</h2>-->
+		<form action="" class="contact_form">
+			<input type="email" name="" id="" class="contact_input">
+			<button type="submit" class="contact_submit">submit</button>
+		</form>
+	</div>
+</section>
+<!--Contact Section End--> 
+  
+<!--Project Section-->
+<section class="projects section-padding" id="projects">
+	<!--title-->
+	<div class="reverse-section-title_container">
+		<div class="reverse-section-title_icon">
+			<i class="fas fa-project-diagram"></i>
+		</div>
+		<div class="reverse-section-title_text">
+			<h1 class="reverse-section-title_name">Projects</h1>
+			<h4 class="reverse-section-title_info">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	<div class="flexbox-parent flexbox-parent-medium" id="projects_modal">
+		<!--project 01-->
+		<article class="project">
+			<img src="img/current-projects-1.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-1.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 02-->
+		<article class="project">
+			<img src="img/current-projects-8.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-8.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 03-->
+		<article class="project">
+			<img src="img/current-projects-3.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-3.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 04-->
+		<article class="project">
+			<img src="img/current-projects-4.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-4.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 05-->
+		<article class="project">
+			<img src="img/current-projects-5.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-5.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 06-->
+		<article class="project">
+			<img src="img/current-projects-6.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-6.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 07-->
+		<article class="project">
+			<img src="img/current-projects-7.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-7.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+		<!--project 08-->
+		<article class="project">
+			<img src="img/current-projects-2.jpeg" alt="" class="project_img">
+			<a href="img/current-projects-2.jpeg" class="project_icon">
+				<i class="fas fa-search"></i>
+			</a>
+			<div class="project_outline"></div>
+		</article>
+	</div>
+</section>
+<!--Project Section End-->
+  
+<!--Progress Section-->
+<section class="progress section-padding" id="progress">
+	<!--title-->
+	<div class="section-title_container">
+		<div class="section-title_icon">
+			<i class="fas fa-spinner"></i>
+		</div>
+		<div class="section-title_text">
+			<h1 class="section-title_name">Our <br><b>Progress</b></h1>
+			<h4 class="section-title_info">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	<div class="flexbox-parent flexbox-parent-medium">
+		<article class="progress_img progress_item"></article>
+		
+		<article class="progress_info progress_item">
+			<div class="progress_container">
+				<!--progress01-->
+				<div class="progress_bar">
+					<div class="progress_bar-text">
+						<h1>deliveries</h1>
+						<h1>100%</h1>
+					</div>
+					<div class="progress_bcg">
+						<div class="progress_value progress_value-one"></div>
+					</div>
+				</div>
+				<!--progress02-->
+				<div class="progress_bar">
+					<div class="progress_bar-text">
+						<h1>initial sale</h1>
+						<h1>90%</h1>
+					</div>
+					<div class="progress_bcg">
+						<div class="progress_value progress_value-two"></div>
+					</div>
+				</div>
+				<!--progress03-->
+				<div class="progress_bar">
+					<div class="progress_bar-text">
+						<h1>customer satisfaction</h1>
+						<h1>80%</h1>
+					</div>
+					<div class="progress_bcg">
+						<div class="progress_value progress_value-three"></div>
+					</div>
+				</div>
+				<!--progress04-->
+				<div class="progress_bar">
+					<div class="progress_bar-text">
+						<h1>follow up</h1>
+						<h1>70%</h1>
+					</div>
+					<div class="progress_bcg">
+						<div class="progress_value progress_value-four"></div>
+					</div>
+				</div>
+				<!--progress05-->
+				<div class="progress_bar">
+					<div class="progress_bar-text">
+						<h1>response time</h1>
+						<h1>60%</h1>
+					</div>
+					<div class="progress_bcg">
+						<div class="progress_value progress_value-five"></div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</div>
+</section>
+<!--Progress Section End-->
+  
+<!--About Section-->
+<section class="about section-padding" id="about">
+	<!--title-->
+	<div class="reverse-section-title_container">
+		<div class="reverse-section-title_icon">
+			<i class="fas fa-user"></i>
+		</div>
+		<div class="reverse-section-title_text section-title_text-border-white">
+			<h1 class="reverse-section-title_name">About Us  </h1>
+			<h4 class="reverse-section-title_info section-title_info-white">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	<div class="flexbox-parent flexbox-parent-medium">
+		<article class="about_img item-margin">
+			<div class="about_img-container">
+			 	<h1 class="about_img-name">Abhinash Mallick</h1>
+			 	<img src="img/team.jpg" alt="Im" class="about_img-photo">
+			 	<div class="about_img-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima odit quaerat impedit ducimus eum quo nihil dolorum non quis a!</div>
+			 </div>
+		</article>
+		<article class="about_info item-margin">
+			 <h1 class="about_info-title">Frequent Questions</h1>
+			 <!--accordion 01-->
+			 <div class="accordion">
+			 	<!--header-->
+			 	<div class="accordion_header">
+			 		<div class="accordion_icon">
+			 			<i class="fas fa-desktop"></i>
+			 		</div>
+			 		<h4 class="accordion_title">web design &amp; development</h4>
+			 		<div class="accordion_btn">
+			 			<i class="fas fa-arrow-down"></i>
+			 		</div>
+			 	</div>
+			 	<!--content-->
+			 	<div class="accordion_content">
+			 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores laborum officia veniam doloribus voluptatibus saepe fuga enim suscipit inventore, accusantium!
+			 	</div>
+			 </div>
+			 <!--accordion 02-->
+			 <div class="accordion">
+			 	<!--header-->
+			 	<div class="accordion_header">
+			 		<div class="accordion_icon">
+			 			<i class="fas fa-desktop"></i>
+			 		</div>
+			 		<h4 class="accordion_title">creative designer</h4>
+			 		<div class="accordion_btn">
+			 			<i class="fas fa-arrow-down"></i>
+			 		</div>
+			 	</div>
+			 	<!--content-->
+			 	<div class="accordion_content">
+			 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores laborum officia veniam doloribus voluptatibus saepe fuga enim suscipit inventore, accusantium!
+			 	</div>
+			 </div>
+			<!--accordion 03-->
+			 <div class="accordion">
+			 	<!--header-->
+			 	<div class="accordion_header">
+			 		<div class="accordion_icon">
+			 			<i class="fas fa-desktop"></i>
+			 		</div>
+			 		<h4 class="accordion_title">article writer</h4>
+			 		<div class="accordion_btn">
+			 			<i class="fas fa-arrow-down"></i>
+			 		</div>
+			 	</div>
+			 	<!--content-->
+			 	<div class="accordion_content">
+			 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores laborum officia veniam doloribus voluptatibus saepe fuga enim suscipit inventore, accusantium!
+			 	</div>
+			 </div>
+		</article>
+	</div>
+</section>
+<!--About Section End-->
+
+<!--Count Section-->
+<section class="numbers" id="numbers">
+	<!--number01-->
+	<article class="number section-padding">
+		<span class="number_icon">
+			<i class="fas fa-user"></i>
+		</span>
+		<p class="numscroller number_data" data-min="1" data-max="1000" data-delay="100" data-increment="10">1000</p>
+		<h3 class="number_name">Users</h3>
+	</article>
+	<!--number02-->
+	<article class="number section-padding">
+		<span class="number_icon">
+			<i class="fas fa-cart-plus"></i>
+		</span>
+		<p class="numscroller number_data" data-min="1" data-max="1000" data-delay="100" data-increment="10">1000</p>
+		<h3 class="number_name">downloads</h3>
+	</article>
+	<!--number03-->
+	<article class="number section-padding">
+		<span class="number_icon">
+			<i class="fas fa-fire-extinguisher"></i>
+		</span>
+		<p class="numscroller number_data" data-min="1" data-max="1000" data-delay="100" data-increment="10">1000</p>
+		<h3 class="number_name">Emergency</h3>
+	</article>
+	<!--number04-->
+	<article class="number section-padding">
+		<span class="number_icon">
+			<i class="fas fa-envelope"></i>
+		</span>
+		<p class="numscroller number_data" data-min="1" data-max="1000" data-delay="100" data-increment="10">1000</p>
+		<h3 class="number_name">messages</h3>
+	</article>
+</section>
+<!--Count Section End-->
+ 
+<!--Team Section-->
+<section class="team section-padding" id="team">
+	<!--title-->
+	<div class="section-title_container">
+		<div class="section-title_icon">
+			<i class="fas fa-users"></i>
+		</div>
+		<div class="section-title_text">
+			<h1 class="section-title_name">team<br><b>members</b></h1>
+			<h4 class="section-title_info">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	<!--team img-->
+	<article class="team-img item-margin">
+		<img src="img/team-1.jpg" alt="team01" class="team-img_item active" data-id="0">
+		<img src="img/team-2.jpg" alt="team02" class="team-img_item" data-id="1">
+		<img src="img/team-3.jpg" alt="team03" class="team-img_item" data-id="2">
+		<img src="img/team-4.jpg" alt="team04" class="team-img_item" data-id="3">
+	</article>
+	<!--team info-->
+	<article class="team-info item-margin">
+		<img src="img/team-1.jpg" alt="team01" class="team-info_img">
+		<div class="team-info_body">
+			<h1 class="team-info_member-name">deadpool</h1>
+			<h4 class="team-info_member-job">developer</h4>
+			<p class="team-info_member-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quos exercitationem modi asperiores, harum laborum, pariatur necessitatibus. Reiciendis tenetur atque corporis repudiandae, illum dicta nihil. Sequi provident cupiditate dolore illum unde porro, molestiae recusandae id similique quas odio voluptatum libero quia sed, dolor error nisi incidunt cum exercitationem, modi at.</p>
+			<article class="team-info_member-favorites">
+				<!--Favorite 01-->
+				<div class="team-info_member-single-favorite">
+					<div class="team-info_member-single-favorite-icon">
+						<i class="fas fa-check"></i>
+					</div>
+					<div class="team-info_member-single-favorite-text">eat</div>
+				</div>
+				<!--Favorite 02-->
+				<div class="team-info_member-single-favorite">
+					<div class="team-info_member-single-favorite-icon">
+						<i class="fas fa-check"></i>
+					</div>
+					<div class="team-info_member-single-favorite-text">drink</div>
+				</div>
+				<!--Favorite 02-->
+				<div class="team-info_member-single-favorite">
+					<div class="team-info_member-single-favorite-icon">
+						<i class="fas fa-check"></i>
+					</div>
+					<div class="team-info_member-single-favorite-text">sleep</div>
+				</div>
+			</article>
+		</div>
+	</article>
+</section>
+<!--Team Section End-->
+
+<!--Blog Section-->
+<section class="blogs section-padding" id="blogs">
+	<div class="flexbox-parent">
+		
+		<!--blog01-->
+		<article class="blog item-margin flexbox-parent-medium">
+			 <!--blog image-->
+			 <div class="blog_photo">
+			 	<img src="img/current-projects-1.jpeg" alt="" class="blog_photo-img">
+			 </div>
+			 <!--blog info-->
+			 <div class="blog_info">
+			 	<h1 class="blog_info-title">title</h1>
+			 	<div class="blog_info-underline"></div>
+			 	<p class="blog_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus error repellat tempore nobis cum totam velit perspiciatis labore, suscipit modi culpa nostrum tenetur.</p>
+			 	<a href="#" class="blog_info-link">read more</a>
+			 </div>
+		</article>
+		<!--blog01-->
+		<!--blog02-->
+		<article class="blog blog-reverse item-margin flexbox-parent-medium">
+			 <!--blog image-->
+			 <div class="blog_photo">
+			 	<img src="img/current-projects-2.jpeg" alt="" class="blog_photo-img">
+			 </div>
+			 <!--blog info-->
+			 <div class="blog_info">
+			 	<h1 class="blog_info-title">title</h1>
+			 	<div class="blog_info-underline"></div>
+			 	<p class="blog_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus error repellat tempore nobis cum totam velit perspiciatis labore, suscipit modi culpa nostrum tenetur.</p>
+			 	<a href="#" class="blog_info-link">read more</a>
+			 </div>
+		</article>
+		<!--blog02-->
+		<!--blog03-->
+		<article class="blog item-margin flexbox-parent-medium">
+			 <!--blog image-->
+			 <div class="blog_photo">
+			 	<img src="img/current-projects-3.jpeg" alt="" class="blog_photo-img">
+			 </div>
+			 <!--blog info-->
+			 <div class="blog_info">
+			 	<h1 class="blog_info-title">title</h1>
+			 	<div class="blog_info-underline"></div>
+			 	<p class="blog_info-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis delectus error repellat tempore nobis cum totam velit perspiciatis labore, suscipit modi culpa nostrum tenetur.</p>
+			 	<a href="#" class="blog_info-link">read more</a>
+			 </div>
+		</article>
+		<!--blog03-->
+		
+	</div>
+</section>
+<!--Blog Section End-->
+
+<!--Quote Section-->
+<section class="quotes section-padding" id="quotes">
+	<!--title-->
+	<div class="section-title_container">
+		<div class="section-title_icon">
+			<i class="fas fa-comments"></i>
+		</div>
+		<div class="section-title_text">
+			<h1 class="section-title_name section-title_name-yellow">What they say</h1>
+			<h4 class="section-title_info">Lorem ipsum dolor sit amet.</h4>
+		</div>
+	</div>
+	<!--title end-->
+	<div class="flexbox-parent flexbox-parent-medium owl-carousel owl-theme">
+	<!--quote01-->
+		<article class="quote">
+			<div class="quote_icon"><i class="fas fa-quote-left"></i></div>
+			<blockquote class="quote_text">
+				<p class="quote_value">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rerum voluptas repellat vel impedit odit sint expedita! Culpa nihil nulla nesciunt excepturi, veniam eligendi doloribus, laudantium earum dolor perferendis debitis maiores tempora illo exercitationem reiciendis est a inventore at animi?
+				</p>
+				<footer>
+					<p class="quote_name">--customer abhinash mallick</p>
+					<p class="quote_job">designer</p>
+				</footer>
+			</blockquote>
+			<article class="quote_img quote_img-1"></article>
+		</article>
+		<!--quote02-->
+		<article class="quote quote-reverse">
+			<div class="quote_icon"><i class="fas fa-quote-right"></i></div>
+			<blockquote class="quote_text">
+				<p class="quote_value">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rerum voluptas repellat vel impedit odit sint expedita! Culpa nihil nulla nesciunt excepturi, veniam eligendi doloribus, laudantium earum dolor perferendis debitis maiores tempora illo exercitationem reiciendis est a inventore at animi?
+				</p>
+				<footer>
+					<p class="quote_name">--customer abhinash mallick</p>
+					<p class="quote_job">designer</p>
+				</footer>
+			</blockquote>
+			<article class="quote_img quote_img-2"></article>
+		</article>
+		<!--quote03-->
+		<article class="quote">
+			<div class="quote_icon"><i class="fas fa-quote-left"></i></div>
+			<blockquote class="quote_text">
+				<p class="quote_value">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus rerum voluptas repellat vel impedit odit sint expedita! Culpa nihil nulla nesciunt excepturi, veniam eligendi doloribus, laudantium earum dolor perferendis debitis maiores tempora illo exercitationem reiciendis est a inventore at animi?
+				</p>
+				<footer>
+					<p class="quote_name">--customer abhinash mallick</p>
+					<p class="quote_job">designer</p>
+				</footer>
+			</blockquote>
+			<article class="quote_img quote_img-3"></article>
+		</article>
+	</div>
+</section>
+<!--Quote Section End-->
+<!-- Map Section-->
+<section class="map" id="map">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117711.79145804388!2d86.10572987051263!3d22.784171388479997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f5e31989f0e2b5%3A0xeeec8e81ce9b344!2sJamshedpur%2C+Jharkhand!5e0!3m2!1sen!2sin!4v1538379246761" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	<!--map info-->
+	<div class="map_info flexbox-parent flexbox-parent-medium">
+		<!--item01-->
+		<div class="map-item item-margin">
+			<div class="map-item_icon">
+				<i class="fas fa-map-marker-alt"></i>
+			</div>
+			<h2 class="map-item_title">meet us</h2>
+			<p class="map-item_text">Kadma Jamshedpur Jharkhand 831001.</p>
+		</div>
+		<!--item02-->
+		<div class="map-item item-margin">
+			<div class="map-item_icon">
+				<i class="fas fa-phone"></i>
+			</div>
+			<h2 class="map-item_title">call us</h2>
+			<p class="map-item_text">+91-9874563210 +91-9874563210</p>
+		</div>
+		<!--item03-->
+		<div class="map-item item-margin">
+			<div class="map-item_icon">
+				<i class="fas fa-envelope"></i>
+			</div>
+			<h2 class="map-item_title">mail us</h2>
+			<p class="map-item_text">info@yourwebsite.com</p>
+		</div>
+	</div>
+</section> 
+<!-- Map Section End-->
+ 
+<!--Modal Section-->
+<!-- modal -->
+<div id="mymodal" class="modal">
+        <div class="closeme"><i class="fas fa-times"></i></div>
+    <h3 class="modal-font">Subscribe Us</h3>
+    <p class="modal-tagline">Subscribe for newsletter and get the item for 50% off</p>
+
+<div>
+  <form method="POST" action="">
+     <input type="text" id="name" name="name" placeholder="enter your name.."> 
+    <input type="text" id="email" name="email" placeholder="email address.." required>  
+
+   <input type="submit" name="name" value="submit">
+
+    <!-- <button class="btn" type="submit"><i class="fa fa-paper-plane"></i></button> -->
+  </form>
+</div>
+  </div>
+
+<!-- background mask -->
+<div id="mymask"></div>
+<!-- background mask -->
+
+<!-- modal end -->
+<!--Modal Section End-->
+  
+  <!-- scripts -->
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- magnific popup -->
+  <script src="plugins/magnific/jquery.magnific-popup.min.js"></script>
+  <!-- magnific script -->
+<!--   <script src="plugins/magnific/magnific.js"></script> -->
+  <!-- numscroller -->
+  <script src="plugins/numscroller-1.0.js"></script>
+  <!-- owl carousel -->
+  <script src="plugins/owl/owl.carousel.min.js"></script>
+  <!-- owl js -->
+   <script src="plugins/owl/owl.js"></script> 
+  <!-- app js  -->
+  <script src="js/app.js"></script>
+  <!-- modal js -->
+  <script>
+	  
+  
+</script>
+</body>
+
+</html>
