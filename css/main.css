@@ -477,6 +477,7 @@ body{
 .contact_input {
 	background: transparent;
 	border: none;
+        width: 90%;
 	border-bottom: 0.25rem solid var(--white);
 	font-size: 2rem;
 	padding: 0.25rem;
