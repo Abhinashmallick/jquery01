@@ -470,6 +470,9 @@ body{
 	letter-spacing: 0.25rem;
 	font-family: "Raleway", sans-serif;
 }
+@media screen and (max-width: 768px) {
+	font-size: 2rem;
+} 
 
 .contact_input {
 	background: transparent;
